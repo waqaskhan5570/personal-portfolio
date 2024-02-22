@@ -55,12 +55,6 @@ const HeroContent = () => {
           expectations. Let`&lsquo;s connect and discuss how I can contribute to
           your team`&lsquo;s objectives!
         </motion.p>
-        {/* <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a> */}
       </div>
 
       <motion.div

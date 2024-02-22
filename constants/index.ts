@@ -72,7 +72,6 @@ export const Skill_data = [
     width: 40,
     height: 40,
   },
-
 ];
 
 export const Socials = [
@@ -89,8 +88,6 @@ export const Socials = [
     src: "/discord.svg",
   },
 ];
-
-
 
 export const Frontend_skill = [
   {
@@ -214,10 +211,7 @@ export const Full_stack = [
     width: 50,
     height: 50,
   },
-
 ];
-
-
 
 export const Other_skill = [
   {
@@ -228,6 +222,9 @@ export const Other_skill = [
   },
 ];
 
-
-
-
+export const Public_links = {
+  linkedIn: "https://www.linkedin.com/in/waqaskhan5570/",
+  github: "https://github.com/waqaskhan5570",
+  discord: "https://github.com/waqaskhan5570",
+  twitter: "https://github.com/waqaskhan5570",
+};
