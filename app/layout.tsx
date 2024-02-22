@@ -8,8 +8,9 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "Waqas Khan - Software Engineer",
+  description:
+    "Software Engineer with over 3 years of experience as a Front-end Developer, Advanced proficiency in JavaScript and ReactJs/NextJs.  I excel at guiding projects and teams toward success, consistently delivering high-quality results that exceed expectations.",
 };
 
 export default function RootLayout({
