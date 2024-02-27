@@ -4,8 +4,6 @@ import ExperienceCard from "./ExperienceCard";
 import { Experience as ExperienceData } from "@/constants";
 
 const Experience = () => {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
   return (
     <div
       className="flex flex-col items-center justify-center py-20"
