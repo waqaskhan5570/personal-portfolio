@@ -47,9 +47,12 @@ const ExperienceCard = (props: Props) => {
         <div className=" rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-br from-slate-800 to-slate-800/[0.2] border border-transparent group-hover:border-slate-700 relative z-50">
           <div className="relative z-50">
             <div className="p-4">
-              <h4 className="text-zinc-100 font-bold tracking-wide mt-4">
+              <h4 className="text-zinc-100 font-bold tracking-wide mt-4 ">
                 {designation}
               </h4>
+              <h2 className="text-transparent bg-clip-text bg-gradient-to-l from-yellow-500 to-cyan-500 font-bold tracking-wide mt-4">
+                {company}
+              </h2>
               <p className="mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm">
                 {description}
               </p>

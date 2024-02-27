@@ -14,8 +14,8 @@ const Experience = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Experience
       </h1>
-      <div className="max-w-5xl mx-auto px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10">
+      <div className="w-full px-8">
+        <div className="py-10">
           {ExperienceData?.map((experience, index) => (
             <ExperienceCard key={index} index={index} {...experience} />
           ))}

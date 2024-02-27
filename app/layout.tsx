@@ -25,7 +25,7 @@ export default function RootLayout({
       >
         {/* <StarsCanvas /> */}
         <Navbar />
-        {children}
+        <main className="max-w-[1640px] m-auto">{children}</main>
         <Footer />
       </body>
     </html>
