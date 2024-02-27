@@ -74,18 +74,18 @@ export const Skill_data = [
   },
 ];
 
+export const Public_links = {
+  linkedIn: "https://www.linkedin.com/in/waqaskhan5570/",
+  github: "https://github.com/waqaskhan5570",
+  discord: "https://github.com/waqaskhan5570",
+  twitter: "https://github.com/waqaskhan5570",
+};
+
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Github",
+    src: "/gitwhite.png",
+    link: Public_links.github,
   },
 ];
 
@@ -222,9 +222,33 @@ export const Other_skill = [
   },
 ];
 
-export const Public_links = {
-  linkedIn: "https://www.linkedin.com/in/waqaskhan5570/",
-  github: "https://github.com/waqaskhan5570",
-  discord: "https://github.com/waqaskhan5570",
-  twitter: "https://github.com/waqaskhan5570",
-};
+export const Experience = [
+  {
+    id: 1,
+    designation: "Software Engineer - Javascript",
+    company: "Anvil Vision",
+    jobType: "Full Time",
+    duration: { start: "12-Jan-22", end: "12-Feb-22" },
+    description: "Some description",
+  },
+  {
+    id: 2,
+    designation: "Frontend Developer",
+    company: "Anvil Vision",
+    jobType: "Full Time",
+    duration: { start: "12-Jan-22", end: "12-Feb-22" },
+    description: "Some description",
+  },
+  {
+    id: 3,
+    designation: "Frontend Developer",
+    company: "Anvil Vision",
+    jobType: "Full Time",
+    duration: { start: "12-Jan-22", end: "12-Feb-22" },
+    description: "Some description",
+  },
+];
+
+export const Projects = [
+  { id: 1, title: "", description: "", coverImage: "", images: [] },
+];
