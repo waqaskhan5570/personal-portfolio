@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { About } from "@/constants";
 
 const HeroContent = () => {
   return (
@@ -46,16 +47,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          As a seasoned Software Engineer with over 3 years of experience as a
-          Front-end Developer, I possess advanced proficiency in JavaScript and
-          specialize in designing and maintaining dynamic, responsive, and
-          optimized applications using ReactJS/NextJS. Throughout my career,
-          I`&lsquo;ve demonstrated a knack for efficiently solving complex
-          problems and providing innovative solutions. With experience leading
-          teams of 6+ individuals, I excel at guiding projects and teams toward
-          success, consistently delivering high-quality results that exceed
-          expectations. Let`&lsquo;s connect and discuss how I can contribute to
-          your team`&lsquo;s objectives!
+          {About}
         </motion.p>
       </div>
 

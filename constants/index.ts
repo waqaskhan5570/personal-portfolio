@@ -222,6 +222,12 @@ export const Other_skill = [
   },
 ];
 
+export const About_old =
+  "As a seasoned Software Engineer with over 3 years of experience as a Front-end Developer, I possess advanced proficiency in JavaScript and specialize in designing and maintaining dynamic, responsive, and optimized applications using ReactJS/NextJS. \n\nThroughout my career, I've demonstrated a knack for efficiently solving complex problems and providing innovative solutions, It won't be wrong to say I love solving and being tested with complex problems that others won't want on their plate. Along with that I have experience in leading teams, I excel at guiding projects and teams toward success, consistently delivering high-quality results that exceed expectations. Let's connect and discuss how I can contribute to your team's objectives!";
+
+export const About =
+  "As a seasoned Software Engineer with over 3 years of experience as a Front-end Developer, I possess advanced proficiency in JavaScript and specialize in designing and maintaining dynamic, responsive, and optimized applications using ReactJS/NextJS. \n\nThroughout my career, I've demonstrated a knack for efficiently solving complex problems and providing innovative solutions, It won't be wrong to say I love solving and being tested with complex problems that others won't want on their plate. Along with that I have experience in leading teams, I excel at guiding projects and teams toward success, consistently delivering high-quality results that exceed expectations. Let's connect and discuss how I can contribute to your team's objectives!";
+
 export const Experience = [
   {
     id: 1,

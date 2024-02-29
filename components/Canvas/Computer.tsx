@@ -22,7 +22,7 @@ const Computers = ({ isMobile }: ComputerProps) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      <pointLight intensity={200} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
@@ -69,7 +69,7 @@ const ComputersCanvas = () => {
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          // minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
