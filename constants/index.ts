@@ -235,7 +235,9 @@ export const Experience = [
     details: [
       "As a Senior Software Engineer and Team Lead at Troon Technologies, I provided accurate estimations for user stories, facilitating effective planning and resource allocation. ",
       "Led the breakdown of user stories into smaller, actionable tasks, ensuring clear understanding and efficient execution.",
-      " Translated wireframes and designs from Figma into functional user interfaces, maintaining consistency and adhering to branding guidelines",
+      "Translated wireframes and designs from Figma into functional user interfaces, maintaining consistency and adhering to branding guidelines",
+      "Conducted thorough code reviews, ensuring adherence to coding standards, and best practices, and addressing potential issues early in the development cycle.",
+      "Facilitated pull request (PR) reviews, providing constructive feedback to team members and encouraging collaboration to improve code quality and maintainability.",
       "Notable Achievements Included:",
       "Effectively delegated tasks, monitored progress and implemented process improvements to increase productivity and efficiency.",
       "Successfully delivered projects meeting client expectations for functionality, quality, and timeliness.",
