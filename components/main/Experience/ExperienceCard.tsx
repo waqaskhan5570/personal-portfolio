@@ -40,6 +40,7 @@ const ExperienceCard = (props: Props) => {
         className="relative group  block p-2 h-full w-full "
         onMouseEnter={() => setHoveredIndex(index)}
         onMouseLeave={() => setHoveredIndex(null)}
+        onClick={() => setExpand(!expand)}
       >
         <AnimatePresence>
           {hoveredIndex === index && (
@@ -86,9 +87,9 @@ const ExperienceCard = (props: Props) => {
                 </p>
               )}
               {expand && (
-                <ul className="mt-4 text-sm text-zinc-400">
+                <ul className="list-disc mt-4 text-sm text-zinc-400">
                   {details?.map((detail, idx) => (
-                    <li key={idx} className="py-1 flex items-center">
+                    <li key={idx} className="py-1 mx-4 items-center">
                       {detail}
                     </li>
                   ))}
