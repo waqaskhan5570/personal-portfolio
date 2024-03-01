@@ -20,7 +20,7 @@ const Hero = () => {
         </video>
         <HeroContent />
       </div>
-      <section className="relative w-full h-[80vh] mx-auto">
+      <section className="relative w-full h-[80vh] mx-auto cursor-pointer">
         <ComputersCanvas />
       </section>
     </>

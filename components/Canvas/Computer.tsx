@@ -11,6 +11,28 @@ interface ComputerProps {
 const Computers = ({ isMobile }: ComputerProps) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
+  const initialPosition = [-0.01, 1.252, -7.15];
+  const [rotation, setRotation] = useState(initialPosition);
+  const currentPosition = window.scrollY;
+
+  // rotate computer on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      setRotation([
+        -0.01,
+        1.252 - currentPosition / 1000,
+        -7.15 + currentPosition / 1200,
+      ]);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [currentPosition]);
+
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
@@ -27,7 +49,7 @@ const Computers = ({ isMobile }: ComputerProps) => {
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        rotation={rotation}
       />
     </mesh>
   );
@@ -69,7 +91,7 @@ const ComputersCanvas = () => {
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
-          // minPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
