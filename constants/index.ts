@@ -271,7 +271,7 @@ export const Experience = [
     designation: "Frontend Developer",
     company: "TribeWorld",
     jobType: "Full Time",
-    duration: { start: "Dec 2021", end: "Aug 2022 - 9 mos" },
+    duration: { start: "Jun 2021", end: "Aug 2022 - 1 yr 3 mos" },
     location: "United Kingdom - Remote",
     description:
       "In my role as a Front-End Developer at TribeWorld, I spearheaded critical aspects of our web projects.",
@@ -282,20 +282,6 @@ export const Experience = [
       "Collaborated closely with Designers and Backend Engineers to ensure a cohesive and enjoyable user experience",
       "Streamlined development by creating reusable components and design patterns.",
       "My tenure at TribeWorld, was marked by innovation, user-centric design, and technical excellence, contributing to our mission of creating outstanding web experiences. I'm excited to apply my skills to future challenges in web development",
-    ],
-  },
-  {
-    id: 4,
-    designation: "Frontend Developer",
-    company: "Ray Media Group",
-    jobType: "Contract",
-    duration: { start: "Jan 2021", end: "Dec 2021 - 7 mos" },
-    location: "Peshawar, Pakistan - Hybrid",
-    description:
-      "In my first job as a Front-end developer, I was responsible for creating web applications and providing my services on a project basis to develop responsive and user-friendly interfaces",
-    details: [
-      "In my first job as a Front-end developer, I was responsible for creating web applications and providing my services on a project basis to develop responsive and user-friendly interfaces.",
-      "I worked on and completed multiple projects during my time at Ray Media Group including an e-commerce application and event organizers and agenda-showing websites for events, I worked with HTML, CSS, React and Bootstrap.",
     ],
   },
 ];
