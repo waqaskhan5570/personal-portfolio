@@ -286,6 +286,40 @@ export const Experience = [
   },
 ];
 
-export const Projects = [
-  { id: 1, title: "", description: "", coverImage: "", images: [] },
+export const ProjectsList = [
+  {
+    title: "Tribe World",
+    link: "/project-details/tribe-world",
+    thumbnail: "/projects/tribe-world/main.jpg",
+  },
+  {
+    title: "Smart Skills Hub",
+    link: "/project-details/smart-skills-hub",
+    thumbnail: "/projects/smart-skills-hub/main.jpg",
+  },
+  {
+    title: "GoThreeOh",
+    link: "/project-details/go-three-oh",
+    thumbnail: "/projects/go-three-oh/main.png",
+  },
+  {
+    title: "Fonecx",
+    link: "/project-details/fonecx",
+    thumbnail: "/projects/fonecx/main.jpg",
+  },
+  {
+    title: "Cisco Summit",
+    link: "/project-details/cisco-summit",
+    thumbnail: "/projects/cisco-summit/main.jpg",
+  },
+  {
+    title: "Chains Logic",
+    link: "/project-details/chains-logic",
+    thumbnail: "/projects/chains-logic/main.jpg",
+  },
+  {
+    title: "Covid Screening",
+    link: "/project-details/covid-screening",
+    thumbnail: "/projects/covid-screening/main.jpg",
+  },
 ];

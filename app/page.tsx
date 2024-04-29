@@ -1,8 +1,7 @@
-import Encryption from "@/components/main/Encryption";
 import Experience from "@/components/main/Experience/Experience";
 import Hero from "@/components/main/Hero";
 import { MacBookScrollView } from "@/components/main/MacBookScrollView";
-import Projects from "@/components/main/Projects";
+import { Projects } from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
         <Skills />
         <MacBookScrollView/>
         <Experience />
-        <Encryption />
         <Projects />
       </div>
     </main>
