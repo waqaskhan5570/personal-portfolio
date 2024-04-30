@@ -322,4 +322,9 @@ export const ProjectsList = [
     link: "/project-details/covid-screening",
     thumbnail: "/projects/covid-screening/main.jpg",
   },
+  {
+    title: "Spoflex",
+    link: "/project-details/spoflex",
+    thumbnail: "/projects/spoflex/main.jpg",
+  },
 ];
