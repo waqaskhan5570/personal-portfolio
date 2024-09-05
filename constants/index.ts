@@ -89,6 +89,7 @@ export const Socials = [
   },
 ];
 
+// unused
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
@@ -152,6 +153,7 @@ export const Frontend_skill = [
   },
 ];
 
+// unused
 export const Backend_skill = [
   {
     skill_name: "Node js",
@@ -185,6 +187,7 @@ export const Backend_skill = [
   },
 ];
 
+// unused
 export const Full_stack = [
   {
     skill_name: "React Native",
@@ -213,6 +216,7 @@ export const Full_stack = [
   },
 ];
 
+// unused
 export const Other_skill = [
   {
     skill_name: "Go",
@@ -226,7 +230,7 @@ export const About_old =
   "As a seasoned Software Engineer with over 3 years of experience as a Front-end Developer, I possess advanced proficiency in JavaScript and specialize in designing and maintaining dynamic, responsive, and optimized applications using ReactJS/NextJS. \n\nThroughout my career, I've demonstrated a knack for efficiently solving complex problems and providing innovative solutions, It won't be wrong to say I love solving and being tested with complex problems that others won't want on their plate. Along with that I have experience in leading teams, I excel at guiding projects and teams toward success, consistently delivering high-quality results that exceed expectations. Let's connect and discuss how I can contribute to your team's objectives!";
 
 export const About =
-  "As a seasoned Software Engineer with over 3 years of experience as a Front-end Developer, I possess advanced proficiency in JavaScript and specialize in designing and maintaining dynamic, responsive, and optimized applications using ReactJS/NextJS. \n\nThroughout my career, I've demonstrated a knack for efficiently solving complex problems and providing innovative solutions, It won't be wrong to say I love solving and being tested with complex problems that others won't want on their plate. Along with that I have experience in leading teams, I excel at guiding projects and teams toward success, consistently delivering high-quality results that exceed expectations. Let's connect and discuss how I can contribute to your team's objectives!";
+  "As a seasoned Software Engineer with almost 4 years of experience as a Front-end Developer, I possess advanced proficiency in JavaScript and specialize in designing and maintaining dynamic, responsive, and optimized applications using ReactJS/NextJS. \n\nThroughout my career, I've demonstrated a knack for efficiently solving complex problems and providing innovative solutions, It won't be wrong to say I love solving and being tested with complex problems that others won't want on their plate. Along with that I have experience in leading teams.";
 
 export const Experience = [
   {
@@ -239,7 +243,7 @@ export const Experience = [
     description:
       "As a Senior Software Engineer and Team Lead at Troon Technologies, I provided accurate estimations for user stories, facilitating effective planning and resource allocation",
     details: [
-      "As a Senior Software Engineer and Team Lead at Troon Technologies, I provided accurate estimations for user stories, facilitating effective planning and resource allocation. ",
+      "Mentored and trained front-end development interns, equipping them with essential skills and best practices to contribute effectively to project teams",
       "Led the breakdown of user stories into smaller, actionable tasks, ensuring clear understanding and efficient execution.",
       "Translated wireframes and designs from Figma into functional user interfaces, maintaining consistency and adhering to branding guidelines",
       "Conducted thorough code reviews, ensuring adherence to coding standards, and best practices, and addressing potential issues early in the development cycle.",
@@ -271,7 +275,7 @@ export const Experience = [
     designation: "Frontend Developer",
     company: "TribeWorld",
     jobType: "Full Time",
-    duration: { start: "Jun 2021", end: "Aug 2022 - 1 yr 3 mos" },
+    duration: { start: "Feb 2021", end: "Aug 2022 - 1 yr 3 mos" },
     location: "United Kingdom - Remote",
     description:
       "In my role as a Front-End Developer at TribeWorld, I spearheaded critical aspects of our web projects.",

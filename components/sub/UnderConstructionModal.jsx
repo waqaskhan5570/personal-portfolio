@@ -24,6 +24,10 @@ function UnderConstructionModal() {
           responsive as well. We are working hard to improve the user
           experience. Stay tuned!
         </p>
+        <p className="text-center text-gray-500 dark:text-gray-300 text-lg md:text-xl lg:text-2xl mb-8">
+          Our developers are a little too occupied with some important work 👀
+          🤑
+        </p>
         <div className="flex space-x-4">
           <button
             onClick={() => setOpen(false)}

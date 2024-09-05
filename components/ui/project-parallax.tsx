@@ -8,13 +8,6 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import { WobbleCard } from "./WobbleCard";
-
-interface Quote {
-  content: string;
-  author: string;
-}
 
 export const ProjectParallax = ({
   products,
@@ -63,7 +56,7 @@ export const ProjectParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -129,31 +122,14 @@ export const ProductCard = ({
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
-      {product?.thumbnail ? (
-        <Link
-          href={product.link}
-          className="block group-hover/product:shadow-2xl "
-        >
-          <Image
-            src={product.thumbnail}
-            height="600"
-            width="600"
-            className="object-cover object-left-top absolute h-full w-full inset-0"
-            alt={product.title}
-          />
-        </Link>
-      ) : (
-        <Link href={product.link}>
-          <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-            <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-              See more
-            </h2>
-            <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-              Click here to see a list of more amazing projects with a details
-            </p>
-          </WobbleCard>
-        </Link>
-      )}
+      <Image
+        src={product?.thumbnail || ""}
+        height="600"
+        width="600"
+        className="object-cover object-left-top absolute h-full w-full inset-0"
+        alt={product.title}
+      />
+
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
